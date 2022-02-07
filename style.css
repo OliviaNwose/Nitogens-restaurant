@@ -1,0 +1,282 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container-fluid{
+    background-image: url("img177new.jpeg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100%;
+}
+.navbar{
+    display:flex;
+}
+em{
+    font-family:cursive;
+    color:rgb(250, 228, 228);
+    font-size: 25px;
+    font-weight:bolder;
+    margin-right: 200px;
+    padding-top: 10px;
+    padding-right:30px;
+}
+a{
+    color:rgb(250, 228, 228);
+    font-weight:500;
+}
+.text{
+    margin-left:50px;
+    margin-top:80px;
+}
+h3{
+    color:rgb(250, 228, 228);
+    font-size:30px ;
+}
+p{
+    font-size: 15px;
+    color:rgb(250, 228, 228);
+}
+.down{
+    margin-top: 30px;
+}
+.btn{
+    background-color:rgb(122, 25, 14);
+    color:whitesmoke;
+    margin-top: 5px;
+}
+.strong{
+    font-size:20px ;
+    color:whitesmoke;
+    margin-left:10px;
+}
+.img13new{
+    padding-left: 40px;
+    padding-top: 30px;
+    border-radius:10px;
+}
+.best{
+    color:#5e341f;
+    padding-right: 50px;
+}
+h5{
+    color:brown;
+}
+.good{
+    height:450px;
+    padding-top: 150px;
+}
+.img{
+    padding-top: 20px;
+}
+h4{
+    font-size: 30px;
+}
+.onee{
+    width:150px;
+    padding-top: px;
+    border-radius: 10px;
+
+}
+.twooo{
+    width:150px;
+    padding-top: px;
+    border-radius: 10px;
+  
+}
+.threee{
+    width:250px;
+    padding-top: px;
+    border-radius: 10px;
+    
+}
+.fourr{
+    width:250px;
+    padding-top: px;
+    border-radius: 10px;
+
+}
+.container-three{
+    text-align: center;
+
+}
+.video{
+    height:500px;
+    width:800px;
+}
+.container-four{
+    text-align: center;
+}
+.cards{
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+}
+.foods{
+    padding: 20px;
+}
+.textinput{
+    height:40px;
+    width:400px;
+}
+.container-five{
+    text-align: center;
+}
+.socials{
+    padding-top: 5px;
+    color:rgb(122, 25, 14);
+}
+/* MEDIA QUERRY */
+@media(max-width:1400px){
+    .container-fluid{
+        width:100%;
+        height:100%;
+    }
+    .row{
+        display:flex;
+        flex-wrap:wrap;
+    }
+}
+@media(max-width:992px){
+    .container-fluid{
+        width:100%;
+        height:100%;
+    }
+    .row{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    a{
+        width:100%;
+    }
+    .btn{
+        width:30%;
+    }
+    .col-sm-7{
+        width:50%;
+        height:100%;
+    }
+    .col-sm-5{
+        width:50%;
+        height:100%;
+    }
+    h2{
+        font-size:100%;
+    }
+    h5{
+        font-size:100%;
+    }
+    .onee, .twooo{
+        width:50%;
+        height:50%;
+    }
+    .three, .fourr{
+        width:50%;
+        height:50%;
+    }
+    .container-three{
+        width:100%;
+    }
+    .col-sm-3{
+        width:100%;
+    }
+    .col-sm-2{
+        width:50%;
+    }
+}
+@media(max-width:768px){
+    .container-fluid{
+        width:100%;
+        height:100%;
+    }
+    .row{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    a{
+        width:100%;
+    }
+    .btn{
+        width:30%;
+    }
+    .col-sm-7{
+        width:50%;
+        height:100%;
+    }
+    .col-sm-5{
+        width:50%;
+        height:100%;
+    }
+    h2{
+        font-size:100%;
+    }
+    h5{
+        font-size:100%;
+    }
+    .onee, .twooo{
+        width:50%;
+        height:50%;
+    }
+    .three, .fourr{
+        width:50%;
+        height:50%;
+    }
+    .container-three{
+        width:100%;
+    }
+    .col-sm-3{
+        width:50%;
+       align-items: center;
+    }
+    .col-sm-2{
+        width:50%;
+    }
+}
+@media(max-width:576px){
+    .container-fluid{
+        width:100%;
+        height:100%;
+    }
+    .row{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    a{
+        width:100%;
+    }
+    .btn{
+        width:30%;
+    }
+    .col-sm-7{
+        width:50%;
+        height:100%;
+    }
+    .col-sm-5{
+        width:50%;
+        height:100%;
+    }
+    h2{
+        font-size:100%;
+    }
+    h5{
+        font-size:100%;
+    }
+    .onee, .twooo{
+        width:50%;
+        height:50%;
+    }
+    .three, .fourr{
+        width:50%;
+        height:50%;
+    }
+    .container-three{
+        width:100%;
+    }
+    .col-sm-3{
+        width:100%;
+    }
+    .col-sm-2{
+        width:50%;
+    }
+}
